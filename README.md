@@ -193,7 +193,7 @@ To run the sample project, you can either just run the `CucumberTestSuite` test 
 
 By default, the tests will run using Chrome. You can run them in Firefox by overriding the `driver` system property, e.g.
 ```json
-$ mvn clean verify -Ddriver=firefox
+$ mvn clean verify -Ddriv
 ```
 Or
 ```json
@@ -278,3 +278,16 @@ For more information about Serenity BDD, you can read the [**Serenity BDD Book**
 * For regular posts on agile test automation best practices, join the **[Agile Test Automation Secrets](https://www.linkedin.com/groups/8961597/)** groups on [LinkedIn](https://www.linkedin.com/groups/8961597/) and [Facebook](https://www.facebook.com/groups/agiletestautomation/)
 * [**Serenity BDD Blog**](https://johnfergusonsmart.com/category/serenity-bdd/) - regular articles about Serenity BDD
 # serenity_run_directly_from_build
+
+
+
+
+
+
+To refresh the gradle build if its not running
+
+./gradlew --refresh-dependencies
+
+
+And run from the runner in test, in gradle.bat
+

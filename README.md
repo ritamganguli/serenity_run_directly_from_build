@@ -291,3 +291,12 @@ To refresh the gradle build if its not running
 
 And run from the runner in test, in gradle.bat
 
+
+If you want to run throug serenity.conf 
+
+--> Python file serenity.conf which makes up the conf file at the given folder
+
+--> Now you can directly run the serenity.conf as an usual methoud
+
+--> flags python ritam.py --build "Your Name" --test-name "Ritam12" --video False
+
